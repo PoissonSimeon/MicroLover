@@ -5,3 +5,36 @@
 .titrebleu {
      color: rgb(63,101,240);
 }
+
+.textebleu {
+     color: rgb(63,101,240);
+     font-style: italic;
+}
+
+.chargement {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    visibility: visible;
+    animation: fondu 1s forwards ;
+    animation-delay: 0s;
+    background-color: rgb(9,2,32);
+    color: aliceblue;
+    position: fixed
+}
+
+@keyframes fondu {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

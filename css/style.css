@@ -38,3 +38,11 @@
         visibility: hidden;
     }
 }
+
+.menus {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}

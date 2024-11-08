@@ -43,8 +43,15 @@
     margin-left: 20px;
 }
 
-.boutcon{
+.boutton{
     margin-left: 20px;
+    background-color: rgb(63,101,240);
+    text-align: center;
+    color: azure;
+    border-radius: 20px;
+    padding: 15px;
+    transition: 0.5s;
+    width: 70px;
 }
 
 .microlover {
@@ -89,10 +96,24 @@ body{
     position: fixed;
     bottom: 0;
     right: 5px;
-    cursor: pointer;
     transition: 0.5s;
 }
 
 .image:hover{
     transform: scale(0.75);
+}
+
+.acheter{
+    background-color: rgb(63,101,240);
+    text-align: center;
+    color: azure;
+    border-radius: 30px;
+    display: flex;
+    padding: 15px;
+    transition: 0.5s;
+    width: 150px;
+}
+
+.acheter:hover{
+    word-spacing: 500px;
 }

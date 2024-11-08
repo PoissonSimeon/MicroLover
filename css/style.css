@@ -39,10 +39,24 @@
     }
 }
 
-.menus {
-
+.menus{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    background-color: brown;
+    padding: 30px;
+}
 
+.menu{
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+
+.identification{
+    background-color: blue;
+    display: flex;
+    padding: 30px;
+}
+
+.microlover {
+    background-color: aqua;
+    display: flex;
 }
